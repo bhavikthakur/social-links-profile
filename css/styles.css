@@ -1,0 +1,225 @@
+/* --------------CSS RESET------------------------------ */
+
+/* 1. Using easy to style box-sizing model */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* 2. Removing default margin */
+* {
+    margin: 0;
+}
+
+
+/* 5. Improving media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* 7. Avoiding text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* 8. Better line wrapping */
+p {
+    text-wrap: pretty;
+}
+
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Color variables  */
+
+:root {
+    --clr-primary-green: hsl(75, 94%, 57%);
+    --clr-neutral-white: hsl(0, 0%, 100%);
+
+    --clr-grey-700: hsl(0, 0%, 20%);
+    --clr-grey-800: hsl(0, 0%, 12%);
+    --clr-grey-900: hsl(0, 0%, 8%);
+
+}
+
+
+body {
+    /* 3. Adding accessible line-height */
+    line-height: 1.5;
+    /* 4. Improving text rendering */
+    -webkit-font-smoothing: antialiased;
+    font-size: 0.875rem;
+
+    /* Font family : Inter */
+    font-family: "Inter", serif;
+
+    /* Font Weights: 400, 600, 700 */
+    font-weight: 400;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--clr-grey-900);
+    color: var(--clr-neutral-white);
+}
+
+
+/* -------HERO SECTION-------------- */
+
+.profile-container {
+    max-width: 330px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--clr-grey-800);
+    padding: 1em;
+    border-radius: 1em;
+}
+
+
+
+/* ------IMAGE--------------- */
+
+.profile-picture {
+    max-width: 80px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+/* -----HEADINGS AND TEXTS-------- */
+
+.profile-title {
+    font-size: 1.5rem;
+    margin-top: 1em;
+    font-weight: 700;
+}
+
+.profile-subheading {
+
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--clr-primary-green);
+    margin-top: 0.2em;
+}
+
+.profile-body {
+    margin-top: 1.5em;
+    font-weight: 400;
+
+}
+
+/* -------LINKS SECTION------------- */
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    margin-top: 1.5em;
+    width: 100%;
+}
+
+/* --------------BUTTONS------------------- */
+
+.btn {
+    display: inline-block;
+    background-color: var(--clr-grey-700);
+    max-width: 330px;
+    width: 100%;
+    padding: 0.8em 0;
+    text-align: center;
+    text-decoration: none;
+    color: var(--clr-neutral-white);
+    font-weight: 600;
+    border-radius: 0.5em;
+    font-size: 0.8rem;
+    transition: 0.3s all ease-in;
+}
+
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--clr-primary-green);
+    color: var(--clr-grey-900);
+}
+
+
+
+/* ------------MEDIA QUERIES----------------------------- */
+
+/* ----EXTRA SMALL SCREENS---- */
+
+@media (max-width: 350px) {
+
+    body {
+        font-size: 0.7rem;
+    }
+
+    .profile-container {
+        width: 80%;
+    }
+
+    .profile-title {
+        font-size: 1.4rem;
+    }
+
+    .profile-subheading {
+        font-size: 0.8rem;
+    }
+
+    .btn {
+        font-size: 0.7rem;
+    }
+}
+
+/* -----EXTRA LARGE SCREENS------- */
+
+@media (min-width:1400px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    .profile-container {
+        max-width: 350px;
+        width: 90%;
+    }
+
+    .profile-title {
+        font-size: 1.7rem;
+    }
+
+    .profile-subheading {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+    }
+}
