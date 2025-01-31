@@ -16,5 +16,5 @@ Flexbox for layout
 CSS Variables for color management
 Media Queries for responsiveness
 Google Fonts (Inter)
-Screenshots
-(You can add some screenshots of your design here)
+
+
