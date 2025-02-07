@@ -45,8 +45,8 @@ Enhanced accessibility using proper semantic HTML.  <br>
 
 
 ## 🤝 Connect With Me  
-👨‍💻 GitHub: bhavikthakur  <br>
-💼 LinkedIn: Bhavik Thakur  <br>
-🐦 Twitter: Bhavik Thakur  <br>
+👨‍💻 GitHub: [bhavikthakur](https://github.com/bhavikthakur)  <br>
+💼 LinkedIn: [Bhavik Thakur](https://www.linkedin.com/in/bhavik-thakur/)  <br>
+🐦 Twitter: [Bhavik Thakur](https://x.com/BhavikkThakur)  <br>
 
 
