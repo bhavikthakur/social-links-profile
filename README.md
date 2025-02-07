@@ -1,20 +1,52 @@
-Social Links Profile
-A simple and responsive profile card with social media links created as part of a Frontend Mentor challenge.
+# Social Links Profile 🎭  
 
-Overview
-This project showcases a personal profile with social media links. The profile includes an avatar, user information, and clickable buttons that link to different social media profiles.
+A simple and responsive social links profile page built using **HTML & CSS**, inspired by a Frontend Mentor challenge. This project showcases a personal profile with social media links, designed with a modern and minimalistic aesthetic.
 
-Features
-Responsive design that adjusts to mobile, tablet, and desktop screen sizes.
-Profile card layout with an avatar, name, location, and a short bio.
-Social media links styled as buttons that open in new tabs.
-Clean and modern design with smooth transitions on hover for buttons.
-Technologies Used
-HTML
-CSS
-Flexbox for layout
-CSS Variables for color management
-Media Queries for responsiveness
-Google Fonts (Inter)
+## 🚀 Live Demo  
+🔗 [View Project](https://bhavikthakur.github.io/social-links-profile/)  
+
+## 📸 Preview  
+![Project Screenshot](./design/desktop-view.png)  
+![Project Screenshot](./design/mobile-view.png)  
+![Project Screenshot](./design/active-states.jpg)  
+
+## 📌 Features  
+✔️ Fully responsive design  
+✔️ Modern and accessible UI  
+✔️ Smooth hover effects  
+✔️ Minimalist dark-themed layout  
+
+## 🛠️ Built With  
+- **HTML5**    <br>
+- **CSS3 (Flexbox, Responsive Design)**    <br>
+- **Google Fonts (Inter)**    <br>
+
+## 📂 Folder Structure  
+📁 social-links-profile <br>
+│── 📁 assets  <br>
+│ ├── 📁 images  <br>
+│ │ ├── avatar-jessica.jpeg  <br>
+│ │ ├── favicon-32x32.png  <br>
+│── 📁 css  <br>
+│ ├── styles.css  <br>
+│── index.html <br>
+
+
+## 🔧 Setup & Usage  
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/YOUR_GITHUB_USERNAME/social-links-profile.git    
+2. Open index.html in your browser. 
+
+## 🔓 Lessons Learned  
+Improved layout structuring with CSS Flexbox. <br>
+Created a fully responsive design for different screen sizes.  <br>
+Enhanced accessibility using proper semantic HTML.  <br>
+
+
+## 🤝 Connect With Me  
+👨‍💻 GitHub: bhavikthakur  <br>
+💼 LinkedIn: Bhavik Thakur  <br>
+🐦 Twitter: Bhavik Thakur  <br>
 
 
